@@ -4,12 +4,12 @@ const config = {
       apiUrl: 'http://localhost:4000',
     },
     production: {
-      apiUrl: 'https://your-production-url.com',
+      apiUrl: 'https://trellotaskbackend-production.up.railway.app',
     },
   };
   
 
-  const env = process.env.NODE_ENV || 'development';
+  const env = process.env.NODE_ENV || 'production';
   
   export default config[env];
   

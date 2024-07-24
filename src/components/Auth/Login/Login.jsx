@@ -4,6 +4,7 @@ import { Divider } from 'antd';
 import './LoginPage.css'; 
 import GoogleLoginButton from '../../Google/GoogleButton';
 import { Link } from 'react-router-dom';
+import config from '../../../Utils/config';
 
 const LoginPage = () => {
   const handleGoogleSuccess = (response) => {

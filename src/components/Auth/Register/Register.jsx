@@ -4,6 +4,7 @@ import './Register.css';
 import GoogleLoginButton from '../../Google/GoogleButton';
 import { Divider } from 'antd';
 import { Link } from 'react-router-dom';
+import config from '../../../Utils/config';
 
 const Register = () => {
   const handleGoogleSuccess = (response) => {
